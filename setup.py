@@ -36,7 +36,7 @@ setup(
         'Topic :: Software Development :: Quality Assurance',
         'License :: OSI Approved :: BSD License'
     ],
-    entry_points={"flake8.extension": ["T00 = flake8_todos:Checker"]},
+    entry_points={"flake8.extension": ["Z00 = flake8_todos:Checker"]},
     packages=['flake8_todos'],
     package_dir={"": "."},
     package_data={},
