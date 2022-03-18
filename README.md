@@ -1,5 +1,7 @@
 # flake8-todos
 
+This fork was made to change the error codes from T00 to Z00, so it could be installed alongside flake8-print.
+
 Plugin for [flake8](http://flake8.pycqa.org/en/latest/) linter to check TODOs in the project.
 
 Good:
@@ -17,12 +19,12 @@ Bad:
 
 Checks:
 
-+ **T001**: use TODO instead of FIXME (or BUG) for consistency.
-+ **T002**: add author into TODO ([motivation](https://dave.cheney.net/practical-go/presentations/qcon-china.html#_dont_comment_bad_code_rewrite_it)).
-+ **T003**: add link on issue into TODO.
-+ **T004**: missed colon in TODO.
-+ **T005**: missed text in TODO.
-+ **T006**: write TODO instead of ToDo (use upper case).
++ **Z001**: use TODO instead of FIXME (or BUG) for consistency.
++ **Z002**: add author into TODO ([motivation](https://dave.cheney.net/practical-go/presentations/qcon-china.html#_dont_comment_bad_code_rewrite_it)).
++ **Z003**: add link on issue into TODO.
++ **Z004**: missed colon in TODO.
++ **Z005**: missed text in TODO.
++ **Z006**: write TODO instead of ToDo (use upper case).
 
 ## Installation
 
