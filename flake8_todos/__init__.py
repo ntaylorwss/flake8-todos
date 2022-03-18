@@ -1,3 +1,4 @@
+"""Fork for error code purposes."""
 
 # project
 from ._checker import Checker
